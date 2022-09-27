@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.boxInfo{
+  width: 25em;
+  height: 17em;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  position: absolute;
+  margin-left: 1em;
+  margin-top: -16em;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.1ch;
+  
+}
+
+.titleOver{
+  width: 12 em;
+  height: 2em;
+  background: linear-gradient(90deg, rgba(0, 0, 0,0.6) 0%, rgba(0, 0, 0,0.6));
+  display: flex;
+  position: absolute;
+  margin-top: -1em;
+  
+  
+}
+

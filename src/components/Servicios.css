@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.rounded-corner{
+  background: rgba(0, 0, 0, 0.5);;
+}
+
+.servicesBg{
+  background: rgb(249, 243, 238);
+  
+}
+
+.fontCs{
+  font-family: 'Roboto', sans-serif;
+}
+
+.bgImage{
+ 
+  background: url("../images/hotelBed.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  overflow: hidden;
+}
+.customDark{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hotelBed.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
+
