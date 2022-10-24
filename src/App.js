@@ -17,7 +17,7 @@ import logoPre from '../src/images/logo_pre_viaje.png';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+    
       <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
