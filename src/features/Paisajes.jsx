@@ -12,7 +12,7 @@ const Paisajes = () => {
   return (
    <>
     <div className="container-fluid px-3 py-3" style={style.bg}>
-      <div className="container cs-visit rounded shadow px-5 py-5 text-white">
+      <div className="container-fluid cs-visit rounded shadow px-5 py-5 text-white">
       <h2 className='fw-bold text-dark'>GLACIAR PERITO MORENO</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa id, doloribus qui harum molestias asperiores voluptatem similique corrupti architecto, placeat nam magni possimus. Magnam dolorum accusamus veritatis sunt eveniet optio.</p>
       

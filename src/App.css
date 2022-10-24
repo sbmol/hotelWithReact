@@ -157,3 +157,7 @@
   height: 40em;
   object-fit: cover;
 }
+
+.bg-carousel{
+ background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
