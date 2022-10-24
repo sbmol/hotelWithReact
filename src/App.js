@@ -2,13 +2,13 @@
 import './App.css';
 
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
 import BoxTravel from './components/BoxTravel';
 import Prom from './components/Prom';
 import Img from '../src/images/167926359.jpeg';
 import Coctail from '../src/images/coctail.jpeg';
 import bed from '../src/images/bed1.jpeg';
 import logoPre from '../src/images/logo_pre_viaje.png';
+import Paisajes from '../src/features/Paisajes';
 
 
 
@@ -26,16 +26,16 @@ function App() {
         </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={Img} alt="img" className="img-fluid w-100 h-50"/>
+          <img src={Img} alt="img" className="img-caa"/>
 
           
         </div>
         <div className="carousel-item">
-          <img src={Coctail} alt="img" className="img-fluid w-100 h-50"/>
+          <img src={Coctail} alt="img" className="img-caa"/>
           
         </div>
         <div className="carousel-item">
-          <img src={bed} alt="img" className="img-fluid w-100 h-50"/>
+          <img src={bed} alt="img" className="img-caa"/>
           
         </div>
       </div>
@@ -55,15 +55,9 @@ function App() {
   
       <BoxTravel />
       <Prom />
+      <Paisajes />
       <Footer />
-      <a
-        href="https://wa.me/2348100000000"
-        class="whatsapp_float"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="fa fa-whatsapp whatsapp-icon"></i>
-      </a>
+      
       
     </div>
   );

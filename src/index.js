@@ -16,11 +16,19 @@ root.render(
       <Navbar />
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/contacto" element={<Contact />} />
       <Route path="/nosotros" element={<Nosotros />} />
       <Route path="/tarifas" element={<Tarifas />} />
       <Route path="/servicios" element={<Servicios />} />
     </Routes>
+    <a
+        href="https://wa.me/2348100000000"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
     </BrowserRouter>
   </React.StrictMode>
 );

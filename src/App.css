@@ -152,3 +152,8 @@
       font-size: 22px;
   }
 }
+.img-caa{
+  width: 100%;
+  height: 40em;
+  object-fit: cover;
+}
