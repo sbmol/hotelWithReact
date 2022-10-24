@@ -1,7 +1,8 @@
 .img-logo{
-  width: 150px;
-  height: 150px;
-  margin-top: -50px;
+  width: 0.2em;
+  height: 0.2em;
+  background-color: yellow;
+ 
 }
 .bgCustomNav{
   background: rgba(0, 0, 0, 0.7);
@@ -10,4 +11,61 @@
 .bgCustom2{
   background: rgba(249, 243, 238, 0.8);
 }
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
 
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #F9F3EE;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar-brand{
+  margin-right: 0;
+}
+
+.navbar-nav{
+  align-items: center;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.navbar-nav img {
+  width: 150px;
+  height: 150px;
+ 
+}
+.navbar .navbar-nav .nav-link {
+  font-size: 1.1em;
+  padding: 0 3em;
+}
+.img-logo2{
+  width: 2em;
+  height: 2em;
+  background-color: yellow;
+ 
+}
+.navbar-toggler-icon {
+  background-image: none;
+  border: none;
+}
+.navbar-toggler-icon::before{
+  font-family: fontAwesome;
+  content: "\f0c9";
+  color: white;
+  font-size: 1.5em;
+  border-color: white;
+}
