@@ -44,8 +44,8 @@
 }
 
 .navbar-nav img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
  
 }
 .navbar .navbar-nav .nav-link {
@@ -53,8 +53,8 @@
   padding: 0 3em;
 }
 .img-logo2{
-  width: 2em;
-  height: 2em;
+  width: 1em;
+  height: 1em;
   background-color: yellow;
  
 }

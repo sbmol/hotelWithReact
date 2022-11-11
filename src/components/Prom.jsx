@@ -1,16 +1,33 @@
 import React from 'react'
+import Breakfast from '../images/breakfast.jpeg'
+import Coctail from '../images/wine.jpeg';
 import './Prom.css'
+import Resto from '../images/coctail.jpeg'
+
 
 const Prom  = () => {
 
  
   return (
     <>
-      <div className="container-fluid bgProm py-3 px-3" >
-        <div className='px-2 py-2 text-center'>
-        <h2 className='text-white'>Promociones todo el año</h2>
-        <p className='text-lead text-white'>Reserva por 3 noches y obtene importantes descuentos</p>
-        <button className='btn btn-danger'>REALIZA TU CONSULTA</button>
+      <div className="container text-dark py-2">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="cardProm">
+              <img src={Breakfast} alt="" className='cardProm' />
+              <h4 className='text-margin'>Desayuno incluido</h4>
+            </div>
+
+          </div>
+          <div className="col-md-4">
+            <img src={Coctail} alt="" className='cardProm'/>
+            <h4 className='text-margin'>Cocktail de bienvenida</h4>
+          </div>
+          <div className="col-md-4">
+            <img src={Resto} alt="" className='cardProm' />
+            <h4 className='text-margin text-center'>Restaurante</h4>
+
+          </div>
         </div>
       </div>
     </>

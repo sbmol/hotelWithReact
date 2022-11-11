@@ -4,7 +4,7 @@ import './App.css';
 import Footer from './components/Footer';
 import BoxTravel from './components/BoxTravel';
 import Prom from './components/Prom';
-import Img from '../src/images/344926811.jpeg';
+import Img from '../src/images/breakfast.jpeg';
 import Coctail from '../src/images/coctail.jpeg';
 import bed from '../src/images/bed1.jpeg';
 import logoPre from '../src/images/logo_pre_viaje.png';
@@ -19,15 +19,19 @@ function App() {
     <div className="App">
     
       <div id="myCarousel" className="carousel slide bg-carousel" data-bs-ride="carousel">
+        
         <div className="carousel-indicators">
+         
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          
         </div>
       <div className="carousel-inner bg-carousel">
+        
         <div className="carousel-item active">
           <img src={Img} alt="img" className="img-caa bg-carousel"/>
-
+          
           
         </div>
         <div className="carousel-item">
@@ -55,7 +59,7 @@ function App() {
   
       <BoxTravel />
       <Prom />
-      <Paisajes />
+      <br />
       <Footer />
       
       

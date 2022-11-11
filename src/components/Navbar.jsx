@@ -17,7 +17,7 @@ const Navbar = () => {
                     <ul className="navbar-nav mx-auto text-white ">
                         <Link to="/servicios" className="nav-link text-white fw-bold">SERVICIOS</Link>
                         <Link to="/nosotros" className="nav-link text-white fw-bold">NOSOTROS</Link>
-                        <img src={Logo} alt="" className='img-logo2 d-none d-lg-block' />
+                        <img src={Logo} alt="" className='img-logo2 d-none d-sm-block' />
                         <Link to="/contacto" className="nav-link text-white fw-bold">CONTACTO</Link>
                         <Link to="/tarifas" className="nav-link text-white fw-bold">TARIFAS</Link>
                         
